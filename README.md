@@ -102,5 +102,3 @@ This will print the process tree.
   * Modifying the system call table and working with kernel modules requires root privileges and can destabilize your system if not done correctly. Proceed with caution.
   * The hardcoded system call table address (`0xc15b3000` in `dqyps.cpp`) is highly system-specific and will likely not work on different kernel versions or configurations. Modern approaches to adding system calls are generally preferred over direct modification of the table for security and portability reasons.
   * The code mentions "lihuan" in comments, possibly indicating the original author.
-
-This README provides a general overview. You may need to adapt compilation commands and addresses based on your specific Linux kernel version and distribution.
